@@ -1,0 +1,35 @@
+<html>
+<head>
+        <title>studentMangement</title>
+        <link type="text/css" rel="stylesheet" href="app.css">
+</head>
+<body>
+    <form >
+        Firstname:<input type="text"><br><br>
+
+        Lastname:<input type="text"><br><br>
+        email:<input type="emial"><br><br>
+        location:<input type= "text"><br><br>
+        phone:<input type="number"><br><br>
+        batch:<input type="text"><br><br>
+    </form>
+
+<select id="sel" onchange="dropdown();">
+    <option value="10">10</option>
+    <option value="20">20</option>
+    <option value="50"> 50</option>
+    <option value="100">100</option>
+
+</select>
+
+<h3>fliter by </h3><input type="text" id="myinput" onkeyup="myFunction()"/><br><br>
+
+<div id="display"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="app.js"></script>
+   
+    
+</body>
+
+</html>
+
