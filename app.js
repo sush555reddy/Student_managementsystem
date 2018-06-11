@@ -31,7 +31,7 @@ function createTable(data, nrows) {
   <td>${data[i].address.permanent}</td>
   <td><input type="button" value = "more details" id="details_${i}" onclick="details(this.id);"/></td>
 
-  <td><input type="button" value = "delete" id="delete${i}" onclick="delete();"/></td>
+  <td><input type="button" value = "delete" id="delete_${i}" onclick="deletes(this.id);"/></td>
   <td><input type="button" value = "edit" id="edit${i}" onclick="edit();"/>
   </td>
   </tr>`;
@@ -42,13 +42,17 @@ function createTable(data, nrows) {
   );
 }
 
+function deletes(id){
+  var i = parseInt(id.split('_')[1]);
+  var id1 = (id + "").replace("delete", "data");
+ document.getElementById(id1).remove();
+
+}
 function details(id) {
-  if(){
-    
-  }
+   $(".videt").remove();
   var i = parseInt(id.split('_')[1]);
   var id1 = (id + "").replace("details", "data");
-  document.getElementById(id1).insertAdjacentHTML("afterend", `<tr id="extended_${i}"> <td> ${users[i].previous_employer.google} </td> </tr>`);  
+  document.getElementById(id1).insertAdjacentHTML("afterend", `<tr class="videt" id="extended_${i}"> <td> ${users[i].previous_employer.google} </td> </tr>`);  
 }
 
 function myFunction() {
