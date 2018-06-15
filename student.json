@@ -1,20 +1,20 @@
 [
-    {
-      "firstname": "Rogers",
-      "lastname": "Golden",
-      "email": "rogers.golden@gmail.com",
+      {
+      "firstname": "Stephens",
+      "lastname": "Willis",
+      "email": "stephens.willis@gmail.com",
       "location": [
-        "Rhode Island",
-        "Louisiana",
-        "Idaho",
-        "Tennessee",
-        "Northern Mariana Islands"
+        "Kansas",
+        "Nevada",
+        "Utah",
+        "Texas",
+        "Maine"
       ],
-      "phone": "+1 (859) 586-2618",
+      "phone": "+1 (898) 529-3032",
       "batch": "UI",
       "address": {
-        "communication": "446 Kensington Walk, Haena, New Hampshire, 9299",
-        "permanent": "744 Beard Street, Jacksonwald, Georgia, 3833"
+        "communication": "859 Ferry Place, Grill, Ohio, 5353",
+        "permanent": "836 Dwight Street, Condon, Maryland, 6234"
       },
       "previous_employer": {
         "google": "Computer Programmer",
@@ -22,6 +22,30 @@
         "linkedIn": "Software Engineer"
       }
     },
+    {
+      "firstname": "Kristie",
+      "lastname": "Callahan",
+      "email": "kristie.callahan@gmail.com",
+      "location": [
+        "Alabama",
+        "Arizona",
+        "Puerto Rico",
+        "South Dakota",
+        "Connecticut"
+      ],
+      "phone": "+1 (993) 560-3865",
+      "batch": "UI",
+      "address": {
+        "communication": "493 Bainbridge Street, Franklin, California, 7569",
+        "permanent": "494 Willow Place, Cressey, South Carolina, 5139"
+      },
+      "previous_employer": {
+        "google": "Computer Programmer",
+        "facebook": "Frontend developer",
+        "linkedIn": "Software Engineer"
+      }
+    },
+    
     {
       "firstname": "Hamilton",
       "lastname": "Tyler",
@@ -61,6 +85,29 @@
       "address": {
         "communication": "952 Harbor Lane, Greer, Vermont, 4736",
         "permanent": "468 Hawthorne Street, Bradenville, Alaska, 4134"
+      },
+      "previous_employer": {
+        "google": "Computer Programmer",
+        "facebook": "Frontend developer",
+        "linkedIn": "Software Engineer"
+      }
+    },
+    {
+      "firstname": "Rogers",
+      "lastname": "Golden",
+      "email": "rogers.golden@gmail.com",
+      "location": [
+        "Rhode Island",
+        "Louisiana",
+        "Idaho",
+        "Tennessee",
+        "Northern Mariana Islands"
+      ],
+      "phone": "+1 (859) 586-2618",
+      "batch": "UI",
+      "address": {
+        "communication": "446 Kensington Walk, Haena, New Hampshire, 9299",
+        "permanent": "744 Beard Street, Jacksonwald, Georgia, 3833"
       },
       "previous_employer": {
         "google": "Computer Programmer",
@@ -1057,52 +1104,7 @@
         "linkedIn": "Software Engineer"
       }
     },
-    {
-      "firstname": "Stephens",
-      "lastname": "Willis",
-      "email": "stephens.willis@gmail.com",
-      "location": [
-        "Kansas",
-        "Nevada",
-        "Utah",
-        "Texas",
-        "Maine"
-      ],
-      "phone": "+1 (898) 529-3032",
-      "batch": "UI",
-      "address": {
-        "communication": "859 Ferry Place, Grill, Ohio, 5353",
-        "permanent": "836 Dwight Street, Condon, Maryland, 6234"
-      },
-      "previous_employer": {
-        "google": "Computer Programmer",
-        "facebook": "Frontend developer",
-        "linkedIn": "Software Engineer"
-      }
-    },
-    {
-      "firstname": "Kristie",
-      "lastname": "Callahan",
-      "email": "kristie.callahan@gmail.com",
-      "location": [
-        "Alabama",
-        "Arizona",
-        "Puerto Rico",
-        "South Dakota",
-        "Connecticut"
-      ],
-      "phone": "+1 (993) 560-3865",
-      "batch": "UI",
-      "address": {
-        "communication": "493 Bainbridge Street, Franklin, California, 7569",
-        "permanent": "494 Willow Place, Cressey, South Carolina, 5139"
-      },
-      "previous_employer": {
-        "google": "Computer Programmer",
-        "facebook": "Frontend developer",
-        "linkedIn": "Software Engineer"
-      }
-    },
+  
     {
       "firstname": "Cathy",
       "lastname": "Bishop",

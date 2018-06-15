@@ -4,27 +4,38 @@
         <link type="text/css" rel="stylesheet" href="app.css">
 </head>
 <body>
-    <form >
-        Firstname:<input type="text"><br><br>
+  <div id="myForm">
+      Firstname:<input class="myinput" id="firstname" type="text" name="firstname" /><br /><br />
+      Lastname:<input class="myinput" id="lastname" type="text" name="lastname" /><br /><br />
+      email:<input class="myinput" id="email" type="text" name="email" /><br /><br />
+      location:<input class="myinput" id="location" type="text" name="location" /><br /><br />
+      phone:<input class="myinput" id="phone" type="number" name="phone" /><br /><br />
+      batch:<input class="myinput" id="batch" type="text" name="batch" /><br /><br />
+      communication address:<textarea class="myinput" id="communication" type="text" name="communication" ></textarea><br /><br />
+      permanent address:<textarea class="myinput" id="permanent" type="text" name="permanent" ></textarea><br /><br />
+      
+<!--
+  
+        permanent address: <textarea> </textarea> <br><br>
+        communication address: <textarea></textarea><br><br>
+-->
+        
+         <button value="save"  id="btn" name="Submit"  onclick="savetable() ">save</button>  
+      <br><br>
+    </div>
 
-        Lastname:<input type="text"><br><br>
-        email:<input type="emial"><br><br>
-        location:<input type= "text"><br><br>
-        phone:<input type="number"><br><br>
-        batch:<input type="text"><br><br>
-    </form>
+    <select id="sel" onchange="dropdown();">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="50"> 50</option>
+        <option value="100">100</option>
 
-<select id="sel" onchange="dropdown();">
-    <option value="10">10</option>
-    <option value="20">20</option>
-    <option value="50"> 50</option>
-    <option value="100">100</option>
-
-</select>
+    </select>
 
 <h3>fliter by </h3><input type="text" id="myinput" onkeyup="myFunction()"/><br><br>
-
-<div id="display"></div>
+<div id="display">
+    
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="app.js"></script>
    
