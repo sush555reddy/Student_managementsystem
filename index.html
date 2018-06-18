@@ -5,6 +5,7 @@
 </head>
 <body>
   <div id="myForm">
+      <h1>Please fill the form!!</h1>
       Firstname:<input class="myinput" id="firstname" type="text" name="firstname" /><br /><br />
       Lastname:<input class="myinput" id="lastname" type="text" name="lastname" /><br /><br />
       email:<input class="myinput" id="email" type="text" name="email" /><br /><br />
@@ -24,7 +25,8 @@
       <br><br>
     </div>
 
-    <select id="sel" onchange="dropdown();">
+    Select number of details to be displayed: <select id="sel" onchange="dropdown();">
+        
         <option value="10">10</option>
         <option value="20">20</option>
         <option value="50"> 50</option>
@@ -36,6 +38,8 @@
 <div id="display">
     
 </div>
+    
+    <p id="msg"></p>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="app.js"></script>
    

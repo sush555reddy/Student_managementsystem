@@ -1,4 +1,4 @@
-var tdata;
+var tdata="";
 var nrows = 10;
 var users = [];
 $(document).ready(function () {
@@ -151,17 +151,22 @@ function myFunction() {
   table = document.getElementById("myTable");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
-    // for(var j=0; j< 6; j++){
-    td = tr[i].getElementsByTagName("td")[0] || tr[i].getElementsByTagName("td")[1] || tr[i].getElementsByTagName("td")[2] || tr[i].getElementsByTagName("td")[3] ||tr[i].getElementsByTagName("td")[4] || tr[i].getElementsByTagName("td")[5] || tr[i].getElementsByTagName("td")[6];
-    if (td) {
-      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+
+    td1 = tr[i].getElementsByTagName("td")[0];
+    td2 = tr[i].getElementsByTagName("td")[1];
+    td3 = tr[i].getElementsByTagName("td")[2];
+    td4 = tr[i].getElementsByTagName("td")[3];
+    td5 = tr[i].getElementsByTagName("td")[4];
+    td6 = tr[i].getElementsByTagName("td")[5];
+    if (td1) {
+      if (td1.innerHTML.toUpperCase().indexOf(filter) > -1 || td2.innerHTML.toUpperCase().indexOf(filter) > -1 || td3.innerHTML.toUpperCase().indexOf(filter) > -1 || td4.innerHTML.toUpperCase().indexOf(filter) > -1 || td5.innerHTML.toUpperCase().indexOf(filter) > -1 || td6.innerHTML.toUpperCase().indexOf(filter) > -1) {
+
         tr[i].style.display = "";
       } else {
         tr[i].style.display = "none";
       }
     }
   }
-  // }
 }
 
  function debounce(func, wait, immediate) {
@@ -195,7 +200,8 @@ var scrolldata= debounce(function(){
             nrows=users.length;
             createTable(users,nrows);
             window.removeEventListener('scroll',scrolldata);
-          alert("no more records");
+            document.getElementById("msg").innerHTML="no more records";
+          
             
         }
     }

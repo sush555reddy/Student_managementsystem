@@ -1,3 +1,7 @@
 table, th, td{
     border: 1px solid green;
 }
+#myForm{
+    align-content: center;
+    margin: 0 auto; 
+}
